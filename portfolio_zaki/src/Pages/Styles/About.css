@@ -1,0 +1,113 @@
+.aboutcontainer {
+  width: 100%;
+  height: auto;
+}
+.h1tag {
+  text-align: center;
+  font-family: "Rubik Distressed";
+  color: brown;
+}
+.about {
+  width: 70%;
+  height: 90%;
+  margin: auto;
+}
+.skildiv {
+  width: 70%;
+  height: auto;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
+  gap: 20px;
+  margin-top: 30px;
+}
+.indiviskill {
+  border: 1px solid black;
+  border-radius: 25px;
+  margin-left: 10px;
+  text-align: center;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+
+  background-color: #efe1ce;
+}
+.indiviskill:hover {
+  background-color: #e0b589;
+}
+.indiviskill img {
+  padding: 10px;
+  width: 200px;
+  height: 200px;
+}
+.aboutul {
+  list-style: disc;
+  font-size: large;
+  font-family: "Mochiy Pop One";
+}
+.skillhtag {
+  font-family: "Rubik Distressed";
+  color: coral;
+  font-size: x-large;
+}
+.aboutul li {
+  padding: 10px;
+}
+
+@media screen and (max-width: 940px) {
+  .about {
+    width: 90%;
+    height: 90%;
+    margin: auto;
+  }
+
+  .skildiv {
+    width: 90%;
+    height: auto;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    gap: 10px;
+    margin-top: 30px;
+  }
+}
+@media screen and (max-width: 550px) {
+  .aboutul li {
+    padding: 5px;
+  }
+  .about {
+    width: 90%;
+    height: 90%;
+    margin: auto;
+  }
+  .skildiv {
+    width: 90%;
+    height: auto;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: auto;
+    gap: 10px;
+    margin-top: 30px;
+  }
+
+  .indiviskill img {
+    padding: 10px;
+    width: 200px;
+    height: 200px;
+  }
+
+  .indiviskill {
+    width: 80%;
+    border: 1px solid black;
+    border-radius: 15px;
+    margin: auto;
+
+    text-align: center;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+      rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+
+    background-color: #efe1ce;
+  }
+}

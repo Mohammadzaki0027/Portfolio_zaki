@@ -1,0 +1,92 @@
+.contactcontainer {
+  width: 100%;
+  background-color: #edf2f8;
+}
+
+.space {
+  width: 100%;
+  background-color: #edf2f8;
+}
+.contact {
+  width: 50%;
+  margin: auto;
+  height: auto;
+
+  background-color: #EDF2F8;
+  margin-bottom: 10px;
+}
+#connect {
+  text-align: center;
+  margin-top: 10px;
+  font-family: "Rubik Distressed";
+  color: brown;
+}
+.contact-form {
+  width: 90%;
+  margin: auto;
+  text-align: center;
+  margin-top: 50px;
+
+  box-sizing: border-box;
+}
+.Message {
+  resize: none;
+  height: 100px;
+  width: 350px;
+  border-radius: 10px;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+  margin-top: 10px;
+}
+
+.subject {
+  margin-top: 10px;
+}
+.subject input {
+  height: 30px;
+  width: 350px;
+}
+.button {
+  background-color: teal;
+  color: #edf2f8;
+  border-radius: 5px;
+}
+
+input:focus {
+  border: 2px solid #555;
+}
+.spacerfooter{
+  width: 100%;
+  height: 100px;
+}
+/* small screen css start from here  */
+@media screen and (max-width: 940px) {
+  .contact {
+    width: 100%;
+    height: auto;
+
+    background-color: #EDF2F8;
+  }
+
+  .contact-form {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    margin-top: 20px;
+
+    box-sizing: border-box;
+  }
+
+  .Message {
+    resize: none;
+    height: 100px;
+    width: 90%;
+    border-radius: 10px;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    margin-top: 10px;
+  }
+
+  .subject input {
+    height: 30px;
+    width: 90%;
+  }
+}

@@ -1,0 +1,142 @@
+/* Navbar code style start from here impoartant code    is  */
+/* icon code start */
+.socialmediaicon {
+  width: 20%;
+  height: 50%;
+  align-items: center;
+  text-align: center;
+  background-color: #ffffff;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.iconindiv {
+  width: 40px;
+  border-radius: 20px;
+
+  height: 40px;
+}
+.socialgit:hover {
+  background-color: teal;
+ 
+}
+/* icon code end */
+
+.header {
+  position: fixed;
+  height: 90px;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  transition: 0.3s ease-in;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.929);
+}
+
+.header .navbar {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  max-width: 1240px;
+  margin: auto;
+  height: 100%;
+  padding: 0 1rem;
+}
+
+.header .nav-menu a {
+  color: #ffffff;
+}
+
+.header .navbar img {
+  width: 250px;
+  height: auto;
+}
+
+.header .nav-menu {
+  display: flex;
+}
+
+.header .nav-item {
+  padding: 5px;
+  font-weight: 500;
+}
+.header .nav-item a {
+  padding: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+.header .nav-item a:hover {
+  padding-bottom: 12px;
+  border-bottom: 3px solid var(--secondary-color);
+}
+
+.hamburger {
+  display: none;
+}
+ul {
+  list-style: none;
+}
+
+@media screen and (max-width: 940px) {
+  .header {
+    max-width: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+  }
+  .header .navbar {
+    max-width: 100%;
+  }
+
+  .hamburger {
+    display: block;
+  }
+  ul {
+    list-style: none;
+  }
+  .nav-menu {
+    position: fixed;
+    left: -100%;
+    top: 70px;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.9);
+    width: 100%;
+    height: 100vh;
+    z-index: 999;
+    text-align: center;
+    transition: 0.3s;
+  }
+
+  .nav-menu.active {
+    left: 0;
+  }
+
+  .nav-item {
+    margin: 1.5rem 0;
+  }
+
+  .header .navbar img {
+    width: 150px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .socialmediaicon {
+    width: 30%;
+    height: 50%;
+    align-items: center;
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .iconindiv {
+    width: 60px;
+    border-radius: 20px;
+
+    height: 40px;
+  }
+  .socialgit:hover {
+    background-color: teal;
+    border-radius: 50%;
+  }
+}

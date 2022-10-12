@@ -1,0 +1,250 @@
+.projectcontainer {
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+margin-bottom: 30px;
+}
+#projecth1 {
+  color: #00758f;
+  font-family: "Rubik Distressed";
+  text-align: center;
+}
+.projectdiv {
+  width: 95%;
+  height: auto;
+  margin: auto;
+  /* background-color: #d8bfd8; */
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  gap: 20px;
+}
+.indivi {
+  width: 90%;
+  text-align: center;
+  margin: auto;
+  margin-top: 10px;
+  height: auto;
+  background-color: aliceblue;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+/* .indivi:hover {
+background-color: darkolivegreen;
+color: white;
+} */
+.imagediv img {
+  margin-top: 20px;
+  width: 300px;
+
+  height: 100px;
+}
+
+.descriptionh1 {
+  font-size: larger;
+
+  color: #363945;
+  font-family: "DynaPuff";
+}
+
+.uldiv_style h5 {
+  padding: 5px;
+  font-size: medium;
+  font-family: "Roboto", sans-serif;
+}
+.techul {
+  display: flex;
+  width: 98%;
+  text-align: center;
+  border: 1px solid green;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.techul h3 {
+  margin-left: 10px;
+  font-size: medium;
+  color: #00758f;
+}
+
+.techul h3:hover {
+  font-size: xx-large;
+  color: teal;
+  text-align: center;
+}
+
+.hover {
+  margin-top: 10px;
+}
+.hover :hover {
+  width: 40px;
+  height: 40px;
+}
+
+.symbol {
+  display: flex;
+  width: 50%;
+  margin: auto;
+  margin-top: 28px;
+  height: 50px;
+  justify-content: space-evenly;
+
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  border-radius: 20px;
+}
+
+.symbolgit {
+  font-size: xx-large;
+  color: darkolivegreen;
+}
+.uldiv_style {
+  width: 90%;
+  margin: auto;
+}
+
+.uldiv_style ul li {
+  list-style: disc;
+  letter-spacing: 2px;
+}
+@media screen and (max-width: 1100px) {
+  .projectdiv {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+
+    display: flex;
+    flex-direction: column;
+    grid-template-rows: auto;
+  }
+  .indivi {
+    width: 35%;
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+    height: auto;
+
+    border-radius: 20px;
+  }
+  .imagediv img {
+    margin-top: 20px;
+
+    width: 100%;
+    height: 200px;
+  }
+
+  .techul {
+    display: flex;
+   
+  }
+}
+@media screen and (max-width: 850px) {
+  .projectdiv {
+    width: 90%;
+    height: 100%;
+    margin: auto;
+
+    display: flex;
+    flex-direction: column;
+    grid-template-rows: auto;
+  }
+  .indivi {
+    width: 48%;
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+    height: auto;
+    background-color: aliceblue;
+    border-radius: 20px;
+  }
+  .imagediv img {
+    margin-top: 20px;
+    width: 100%;
+
+    height: 200px;
+  }
+
+  .techul {
+    display: flex;
+    margin-left: 5px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .projectdiv {
+    width: 100%;
+    height: auto;
+    margin: auto;
+
+    display: flex;
+    flex-direction: column;
+    grid-template-rows: auto;
+  }
+  .indivi {
+    width: 55%;
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+    height: auto;
+    background-color: aliceblue;
+    border-radius: 20px;
+  }
+  .imagediv img {
+    margin-top: 20px;
+    width: 100%;
+
+    height: 200px;
+  }
+  .techul {
+    display: flex;
+    width: 100%;
+
+    margin-left: 1px;
+  }
+  .techul h3 {
+    font-size: small;
+    color: #00758f;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 400px) {
+  .indivi {
+    width: 70%;
+
+    margin: auto;
+    margin-top: 10px;
+    height: auto;
+    background-color: aliceblue;
+    border-radius: 20px;
+  }
+  .imagediv img {
+    margin-top: 20px;
+    width: 100%;
+
+    height: 200px;
+  }
+  .techul {
+    display: flex;
+    width: 100%;
+    margin: none;
+  }
+  .techul h3 {
+    font-size: small;
+    color: #00758f;
+  }
+}
+@media screen and (max-width: 300px) {
+  .indivi {
+    width: 90%;
+
+    margin: auto;
+    margin-top: 10px;
+    height: auto;
+    background-color: aliceblue;
+    border-radius: 20px;
+  }
+
+
+}

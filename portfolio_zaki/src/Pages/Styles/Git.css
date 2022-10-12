@@ -1,0 +1,57 @@
+.gitdiv {
+  width: 100%;
+  text-align: center;
+  height: auto;
+  margin: auto;
+  font-family: "Rubik Distressed";
+  color: brown;
+  background-color: #edf2f8;
+}
+.calendar {
+  width: 60%;
+
+  height: auto;
+  margin: auto;
+  margin-top: 30px;
+  align-items: center;
+  text-align: center;
+}
+.calendar img{
+  width: 100%;
+  height: auto;
+}
+
+@media screen and (max-width: 940px) {
+  .calendar {
+    width: 70%;
+  
+    height: auto;
+    margin: auto;
+    margin-top: 30px;
+    align-items: center;
+    text-align: center;
+  }
+
+}
+
+@media screen and (max-width: 440px) {
+  .calendar {
+    width: 90%;
+  
+    height: auto;
+    margin: auto;
+    margin-top: 30px;
+    align-items: center;
+    text-align: center;
+  }
+  .gitdiv{
+    width: 100%;
+    text-align: center;
+    height: auto;
+    margin: auto;
+    font-family: "Rubik Distressed";
+    color: brown;
+    background-color: #edf2f8;
+    font-size: smaller;
+  }
+}
