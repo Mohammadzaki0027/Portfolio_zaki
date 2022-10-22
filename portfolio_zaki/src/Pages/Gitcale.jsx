@@ -29,15 +29,24 @@ const Gitcale = () => {
           year={new Date().getFullYear()}
           blockSize={10}
         >
-          <ReactTooltip delayShow={20} html/>
+          <ReactTooltip delayShow={20} html />
         </GitHubCalendar>
         <h1>Streak</h1>
-      
-        <img src="https://github-readme-streak-stats.herokuapp.com?user=Mohammadzaki0027&theme=dark" alt="" />
+
+        <img
+          src="https://github-readme-streak-stats.herokuapp.com?user=Mohammadzaki0027&theme=dark"
+          alt=""
+        />
         <h1>Statics</h1>
-        <img src="https://github-readme-stats.vercel.app/api?username=Mohammadzaki0027&theme=highcontrast&show_icons=true" alt="" />
+        <img
+          src="https://github-readme-stats.vercel.app/api?username=Mohammadzaki0027&theme=highcontrast&show_icons=true"
+          alt=""
+        />
         <h1>Language Used</h1>
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Mohammadzaki0027" alt="" />
+        <img
+          src="https://github-readme-stats.vercel.app/api/top-langs/?username=Mohammadzaki0027"
+          alt=""
+        />
       </div>
     </div>
   );
