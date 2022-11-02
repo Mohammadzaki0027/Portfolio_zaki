@@ -2,12 +2,13 @@
 /* icon code start */
 .socialmediaicon {
   width: 20%;
-  height: 50%;
+  height: 60%;
   align-items: center;
   text-align: center;
   background-color: #ffffff;
   border-radius: 10px;
   display: flex;
+
   justify-content: space-evenly;
 }
 .iconindiv {
@@ -16,10 +17,13 @@
 
   height: 40px;
 }
-.socialgit:hover {
-  background-color: teal;
- 
+
+.socialgitl {
+margin-top: 2px;
+
 }
+
+
 /* icon code end */
 
 .header {

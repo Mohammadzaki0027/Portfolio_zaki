@@ -1,13 +1,16 @@
 import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { Link } from "react-scroll";
-import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
+import {
+  AiFillGithub,
+  AiFillLinkedin,
+  AiOutlineDownload,
+} from "react-icons/ai";
 import "./Navbar.css";
 
 const Navbar = () => {
   const [click, setClick] = useState(false);
   const handleClick = () => setClick(!click);
-
   const closeMenu = () => setClick(false);
 
   return (
@@ -83,6 +86,17 @@ const Navbar = () => {
               Contact
             </Link>
           </li>
+
+          <li className="nav-item">
+            <a
+              href="Mohammad_zaki_Resume.pdf"
+              className="anchortag"
+              download="Mohammad_zaki_Resume.pdf"
+              style={{ textDecoration: "none" }}
+            >
+              Resume
+            </a>
+          </li>
         </ul>
         <div className="socialmediaicon">
           <div className="socialgit">
@@ -92,7 +106,7 @@ const Navbar = () => {
             </a>
           </div>
           <div className="iconindiv">
-            <div className="socialgit">
+            <div className="socialgitl" >
               {" "}
               <a
                 href="https://www.linkedin.com/in/mohammad-zaki-b48821158/"

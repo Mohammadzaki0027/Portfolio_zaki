@@ -32,7 +32,8 @@
 }
 #hello span {
   margin-left: 18px;
-  font-size: 50px;
+  margin-top: 20px;
+  font-size: 40px;
   font-family: "DynaPuff";
   color: rgb(180, 7, 7);
 }
@@ -56,15 +57,16 @@
 .resumebutton {
   background-color: teal;
   width: 60%;
-  height: 50px;
+  height: 60px;
+ 
 padding: 10px;
   color: wheat;
   border: none;
-  border-radius: 10px;
+  border-radius: 15px;
 }
 .divanchor {
-  width: 24%;
-  height: 50px;
+  width: 200px;
+  height: 70px;
 
   text-align: center;
   margin-top: 50px;
@@ -89,7 +91,7 @@ padding: 10px;
     margin-right: 0;
   }
   .divanchor {
-    width: 40%;
+    width: 170px;
     height: 50px;
     border-radius: 10px;
     text-align: center;
@@ -97,7 +99,7 @@ padding: 10px;
   }
   .resumebutton {
     background-color: teal;
-    width: 50%;
+    width: 70%;
     height: 45px;
     color: wheat;
     border: none;
@@ -160,7 +162,7 @@ padding: 10px;
     border-radius: 150px;
   }
   .divanchor {
-    width: 80%;
+    width: 200px;
     height: 50px;
     border-radius: 10px;
     text-align: center;

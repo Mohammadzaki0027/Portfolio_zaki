@@ -28,6 +28,8 @@ const Gitcale = () => {
           username="Mohammadzaki0027"
           year={new Date().getFullYear()}
           blockSize={10}
+          style={{marginLeft:"20px"}}
+          
         >
           <ReactTooltip delayShow={20} html />
         </GitHubCalendar>
@@ -46,6 +48,7 @@ const Gitcale = () => {
         <img
           src="https://github-readme-stats.vercel.app/api/top-langs/?username=Mohammadzaki0027"
           alt=""
+          id="langimg"
         />
       </div>
     </div>
