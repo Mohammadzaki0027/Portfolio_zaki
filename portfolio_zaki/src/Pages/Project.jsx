@@ -2,6 +2,8 @@ import React from "react";
 import "./Styles/Project.css";
 import { GoGlobe } from "react-icons/go";
 import { AiFillGithub } from "react-icons/ai";
+import Tippy from '@tippyjs/react';
+import 'tippy.js/dist/tippy.css'; // optional
 const Project = () => {
   return (
     <div className="projectcontainer" id="project">
@@ -39,17 +41,23 @@ const Project = () => {
           </div>
           <div className="symbol" >
             <div className="hover">
+            <Tippy  className="hello_world"   content={<span style={{   
+  fontfamily: "Rubik Distressed"}}>Git Hub code</span>}>
               <a
                 href="https://github.com/ahmad-DS/sloppy-impulse-7268"
                 target="blank"
               >
                 <AiFillGithub className="symbolgit" />
               </a>
+              </Tippy>
             </div>
             <div className="hover">
+            <Tippy  className="hello_world"   content={<span style={{   
+  fontfamily: "Rubik Distressed"}}>Live Link</span>}>
               <a href="https://mynetdiary-alpha.vercel.app" target="_blank">
                 <GoGlobe className="symbolgit" />
               </a>
+              </Tippy>
             </div>
           </div>
         </div>
@@ -83,17 +91,23 @@ const Project = () => {
           </div>
           <div className="symbol" >
             <div className="hover">
+            <Tippy  className="hello_world"   content={<span style={{   
+  fontfamily: "Rubik Distressed"}}>Git Hub Code</span>}>
               <a
                 href="https://github.com/Mohammadzaki0027/clone-unsplashhttps://github.com/Mohammadzaki0027/sensitive-thunder-3176"
                 target="blank"
               >
                 <AiFillGithub className="symbolgit" />
               </a>
+              </Tippy>
             </div>
             <div className="hover">
+            <Tippy  className="hello_world"   content={<span style={{   
+  fontfamily: "Rubik Distressed"}}>Live Link</span>}>
               <a href="https://timecampcloneweb.netlify.app" target="_blank">
                 <GoGlobe className="symbolgit" />
               </a>
+              </Tippy>
             </div>
           </div>
         </div>
@@ -128,20 +142,26 @@ const Project = () => {
           </div>
           <div className="symbol">
             <div className="hover">
+            <Tippy  className="hello_world"   content={<span style={{   
+  fontfamily: "Rubik Distressed"}}>Git Hub Code</span>}>
               <a
                 href="https://github.com/Mohammadzaki0027/-barbarous-use-2331/tree/master/barbarous-use-2331app"
                 target="blank"
               >
                 <AiFillGithub className="symbolgit" />
               </a>
+              </Tippy>
             </div>
             <div className="hover">
+            <Tippy  className="hello_world"   content={<span style={{   
+  fontfamily: "Rubik Distressed"}}>Live Link</span>}>
               <a
                 href="https://barbarous-use-2331app.vercel.app/"
                 target="_blank"
               >
                 <GoGlobe className="symbolgit" />
               </a>
+              </Tippy>
             </div>
           </div>
         </div>
@@ -175,20 +195,26 @@ const Project = () => {
           </div>
           <div className="symbol">
             <div className="hover">
+            <Tippy  className="hello_world"   content={<span style={{   
+  fontfamily: "Rubik Distressed"}}>Git Hub Code</span>}>
               <a
                 href="https://github.com/Mohammadzaki0027/nykaaproject"
                 target="blank"
               >
                 <AiFillGithub className="symbolgit" />
               </a>
+              </Tippy>
             </div>
             <div className="hover">
+            <Tippy  className="hello_world"   content={<span style={{   
+  fontfamily: "Rubik Distressed"}}>Live Link</span>}>
               <a
                 href="https://rococo-jalebi-9c168f.netlify.app"
                 target="_blank"
               >
                 <GoGlobe className="symbolgit" />
               </a>
+              </Tippy>
             </div>
           </div>
         </div>
@@ -223,20 +249,26 @@ const Project = () => {
           </div>
           <div className="symbol" id="symbol1">
             <div className="hover">
+            <Tippy  className="hello_world"   content={<span style={{   
+  fontfamily: "Rubik Distressed"}}>Git Hub Code</span>}>
               <a
                 href="https://github.com/Mohammadzaki0027/clone-unsplash"
                 target="blank"
               >
                 <AiFillGithub className="symbolgit" />
               </a>
+              </Tippy>
             </div>
             <div className="hover">
+            <Tippy  className="hello_world"   content={<span style={{   
+  fontfamily: "Rubik Distressed"}}>Live Link</span>}>
               <a
                 href="https://precious-sorbet-178450.netlify.app"
                 target="_blank"
               >
                 <GoGlobe className="symbolgit" />
               </a>
+              </Tippy>
             </div>
           </div>
         </div>
@@ -273,12 +305,15 @@ const Project = () => {
           </div>
           <div className="symbol">
             <div className="hover">
+            <Tippy  className="hello_world"   content={<span style={{   
+  fontfamily: "Rubik Distressed"}}>Git Hub Code</span>}>
               <a
                 href="https://github.com/Mohammadzaki0027/react_redux_assignment/tree/main/Redux/musicapp"
                 target="blank"
               >
                 <AiFillGithub className="symbolgit" />
               </a>
+              </Tippy>
             </div>
           </div>
         </div>

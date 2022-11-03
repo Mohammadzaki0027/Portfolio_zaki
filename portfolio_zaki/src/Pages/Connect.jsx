@@ -60,7 +60,7 @@ export default function Connect() {
         p={6}
         my={12}
       >
-         <h2 style={{textAlign:"center",marginTop:"10px",fontFamily:"Rubik Distressed",color:"brown"}}>Connect Me</h2>
+         <h2 style={{textAlign:"center",fontFamily:"Rubik Distressed",color:"#00758f"}}>Connect Me</h2>
         <Heading lineHeight={1.1} fontSize={{ base: "2xl", md: "3xl" }}>
           Enter Details
         </Heading>

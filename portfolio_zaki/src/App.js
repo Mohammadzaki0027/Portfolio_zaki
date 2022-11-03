@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Navbar from "./Components/Navbar";
 import "./App.css";
 import Home from "./Pages/Home";
-import Contact from "./Pages/Contact";
+
 import About from "./Pages/About.jsx";
 import Project from "./Pages/Project.jsx";
 import Gitcale from "./Pages/Gitcale";

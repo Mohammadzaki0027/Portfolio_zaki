@@ -1,11 +1,14 @@
 import React from "react";
-
+import Tippy from '@tippyjs/react';
+import 'tippy.js/dist/tippy.css'; // optional
 import "./Styles/Home.css";
 import Typewriter from "typewriter-effect";
 import { AiOutlineDownload } from "react-icons/ai";
+
 const Home = () => {
   return (
     <div id="home" className="home">
+
       <div className="profile-div">
         <div className="words">
           <h3 id="hello">
@@ -15,7 +18,8 @@ const Home = () => {
           <h2 id="iam">
             I am a
             <span
-              style={{ color: "teal", fontWeight: "bold", marginLeft: "10px" }}
+              style={{ color: "teal", fontWeight: "bold", marginLeft: "10px" ,fontFamily:"Rubik Distressed",fontSize:"larger"}}
+              
             >
               <Typewriter
                 options={{
@@ -34,12 +38,17 @@ const Home = () => {
               className="anchortag"
               download="Mohammad_zaki_Resume.pdf"
             >
-              <button className="resumebutton">
+             <Tippy  className="hello_world"   content={<span style={{   
+  fontfamily: "Rubik Distressed"}}>Resume</span>}>
+
+            
+              <button className="resumebutton" style={{fontFamily:"Rubik Distressed" ,color:"white"}} >
                 Resume
                 <h2 style={{ color: "black" }} className="arrowdown">
                   <AiOutlineDownload />
                 </h2>
               </button>
+              </Tippy>
             </a>
           </div>
         </div>

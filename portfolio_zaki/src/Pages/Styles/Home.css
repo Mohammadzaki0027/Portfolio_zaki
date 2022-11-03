@@ -30,11 +30,15 @@
   font-family: "Mochiy Pop One";
   font-size: large;
 }
+.hello_world{
+  background-color: blueviolet;
+}
 #hello span {
   margin-left: 18px;
   margin-top: 20px;
   font-size: 40px;
-  font-family: "DynaPuff";
+
+  font-family: "Rubik Distressed";
   color: rgb(180, 7, 7);
 }
 
@@ -48,7 +52,7 @@
   margin-top: 50px;
 }
 .resumebutton:hover {
-  background-color: blueviolet;
+  background-color:rgb(180, 7, 7);
   cursor: pointer;
   font-size: medium;
 

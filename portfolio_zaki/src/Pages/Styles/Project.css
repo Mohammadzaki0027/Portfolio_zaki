@@ -152,7 +152,7 @@ color: white;
     grid-template-rows: auto;
   }
   .indivi {
-    width: 48%;
+    width: 55%;
     text-align: center;
     margin: auto;
     margin-top: 10px;
@@ -183,7 +183,7 @@ color: white;
     grid-template-rows: auto;
   }
   .indivi {
-    width: 55%;
+    width: 80%;
     text-align: center;
     margin: auto;
     margin-top: 10px;
@@ -211,7 +211,7 @@ color: white;
 }
 @media screen and (max-width: 400px) {
   .indivi {
-    width: 70%;
+    width: 80%;
 
     margin: auto;
     margin-top: 10px;

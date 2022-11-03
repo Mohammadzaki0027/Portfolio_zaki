@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { Link } from "react-scroll";
+import Tippy from '@tippyjs/react';
+import 'tippy.js/dist/tippy.css'; // optional
 import {
   AiFillGithub,
   AiFillLinkedin,
@@ -100,20 +102,29 @@ const Navbar = () => {
         </ul>
         <div className="socialmediaicon">
           <div className="socialgit">
-            {" "}
+          <Tippy  className="hello_world"   content={<span style={{   
+  fontfamily: "Rubik Distressed"}}>Github</span>}>
             <a href="https://github.com/Mohammadzaki0027" target="blank">
+             
+
+              
               <AiFillGithub className="symbolgit" />
+             
             </a>
+</Tippy>
+
           </div>
           <div className="iconindiv">
-            <div className="socialgitl" >
-              {" "}
+            <div className="socialgitl">
+            <Tippy  className="hello_world"   content={<span style={{   
+  fontfamily: "Rubik Distressed"}}>linkedIn</span>}>
               <a
                 href="https://www.linkedin.com/in/mohammad-zaki-b48821158/"
                 target="blank"
               >
                 <AiFillLinkedin className="symbolgit" />
               </a>
+              </Tippy>
             </div>
           </div>
         </div>
