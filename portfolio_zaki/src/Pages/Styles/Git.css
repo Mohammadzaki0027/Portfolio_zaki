@@ -3,9 +3,10 @@
   text-align: center;
   height: auto;
   margin: auto;
-  color: #00758f;
-  font-family: "Rubik Distressed";
-
+  color: #965679;
+  font-family: 'Courier New', Courier, monospace;
+  background-color: #A09998 ;
+  padding-top: 10px
 }
 .calendar {
   width: 60%;

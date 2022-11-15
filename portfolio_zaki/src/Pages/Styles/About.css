@@ -1,11 +1,16 @@
 .aboutcontainer {
   width: 100%;
   height: auto;
+
+ 
+  background-color: #A09998 
+
 }
 .h1tag {
   text-align: center;
-  color: #00758f;
-  font-family: "Rubik Distressed";
+  color: #965679;
+font-family: 'Courier New', Courier, monospace;
+  padding-top: 10px;
 }
 .about {
   width: 70%;
@@ -43,14 +48,17 @@
 .aboutul {
   list-style: disc;
   font-size: large;
-  font-family: "Mochiy Pop One";
+  font-family: 'Courier New', Courier, monospace;
 }
 .skillhtag {
-  font-family: "Rubik Distressed";
-  color: coral;
+  font-family: 'Courier New', Courier, monospace;
+  color: white;
   font-size: x-large;
 }
 .aboutul li {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: larger;
+  font-weight: 700;
   padding: 10px;
 }
 

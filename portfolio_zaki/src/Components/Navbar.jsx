@@ -27,12 +27,13 @@ const Navbar = () => {
         </div>
 
         <ul className={click ? "nav-menu active" : "nav-menu"}>
-          <li className="nav-item">
+          <li className="nav-item" >
             <Link
               onClick={closeMenu}
               to="home"
               spy={true}
               smooth={true}
+              style={{ fontFamily: "Rubik Distressed" ,fontSize:"18px"}} 
               offset={-100}
               duration={500}
             >
@@ -45,6 +46,7 @@ const Navbar = () => {
               to="about"
               spy={true}
               smooth={true}
+              style={{ fontFamily: "Rubik Distressed" ,fontSize:"18px"}} 
               offset={-130}
               duration={500}
             >
@@ -56,8 +58,9 @@ const Navbar = () => {
               onClick={closeMenu}
               to="project"
               spy={true}
+              style={{ fontFamily: "Rubik Distressed",fontSize:"18px"}} 
               smooth={true}
-              offset={-100}
+              offset={-90}
               duration={500}
             >
               Project
@@ -69,7 +72,8 @@ const Navbar = () => {
               to="git"
               spy={true}
               smooth={true}
-              offset={-100}
+              offset={-85}
+              style={{ fontFamily: "Rubik Distressed" ,fontSize:"18px"}} 
               duration={500}
             >
               Github Info
@@ -84,17 +88,23 @@ const Navbar = () => {
               smooth={true}
               offset={-40}
               duration={500}
+              style={{ fontFamily: "Rubik Distressed" ,fontSize:"18px"}} 
             >
               Contact
             </Link>
           </li>
 
           <li className="nav-item">
-            <a
+          <a
               href="Mohammad_zaki_Resume.pdf"
               className="anchortag"
               download="Mohammad_zaki_Resume.pdf"
-              style={{ textDecoration: "none" }}
+              style={{ textDecoration: "none", fontFamily: "Rubik Distressed" ,fontSize:"18px"}}
+              onClick={() => {
+                window.open(
+                  "https://drive.google.com/file/d/12CmBViLZeP2rE-hIY023Wcrr_caQ_YBE/view?usp=share_link"
+                );
+              }}
             >
               Resume
             </a>
@@ -117,7 +127,7 @@ const Navbar = () => {
           <div className="iconindiv">
             <div className="socialgitl">
             <Tippy  className="hello_world"   content={<span style={{   
-  fontfamily: "Rubik Distressed"}}>linkedIn</span>}>
+  fontfamily: "Rubik Distressed"}}>LinkedIn</span>}>
               <a
                 href="https://www.linkedin.com/in/mohammad-zaki-b48821158/"
                 target="blank"

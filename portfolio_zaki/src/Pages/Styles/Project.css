@@ -1,12 +1,12 @@
 .projectcontainer {
   width: 100%;
   height: auto;
-  margin-top: 20px;
-margin-bottom: 30px;
+
+  background-color: #a09998;
 }
 #projecth1 {
-  color: #00758f;
-  font-family: "Rubik Distressed";
+  color: #965679;
+  font-family: 'Courier New', Courier, monospace;
   text-align: center;
 }
 .projectdiv {
@@ -138,7 +138,6 @@ color: white;
 
   .techul {
     display: flex;
-   
   }
 }
 @media screen and (max-width: 850px) {
@@ -245,6 +244,4 @@ color: white;
     background-color: aliceblue;
     border-radius: 20px;
   }
-
-
 }

@@ -18,8 +18,8 @@ const Home = () => {
           <h2 id="iam">
             I am a
             <span
-              style={{ color: "teal", fontWeight: "bold", marginLeft: "10px" ,fontFamily:"Rubik Distressed",fontSize:"larger"}}
-              
+              style={{   color: "#965679", fontWeight: "bold", marginLeft: "10px" ,fontSize:"larger"}}
+              className="typewriter"
             >
               <Typewriter
                 options={{

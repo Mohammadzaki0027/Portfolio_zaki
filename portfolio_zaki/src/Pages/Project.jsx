@@ -6,8 +6,9 @@ import Tippy from '@tippyjs/react';
 import 'tippy.js/dist/tippy.css'; // optional
 const Project = () => {
   return (
-    <div className="projectcontainer" id="project">
-      <h1 id="projecth1">Projects</h1>
+    <div className="projectcontainer" id="project"
+    >
+      <h1 id="projecth1" >Projects</h1>
       <div className="projectdiv">
         {/* FIRST PROJECT START FROM HERE  */}
         <div className="indivi">

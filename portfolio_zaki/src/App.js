@@ -8,6 +8,8 @@ import Project from "./Pages/Project.jsx";
 import Gitcale from "./Pages/Gitcale";
 import Connect from "./Pages/Connect";
 
+
+
 function App() {
   return (
     <div className="App">
@@ -18,7 +20,7 @@ function App() {
       <Project></Project>
       <Gitcale></Gitcale>
       <Connect></Connect>
- 
+
     </div>
   );
 }

@@ -4,6 +4,7 @@ import "./Styles/About.css";
 const About = () => {
   return (
     <div className="aboutcontainer">
+ 
       <h1 className="h1tag">About Me</h1>
       <div id="about" className="about">
         <ul className="aboutul">

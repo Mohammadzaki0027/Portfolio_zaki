@@ -1,25 +1,26 @@
 .contactcontainer {
   width: 100%;
-  background-color: #edf2f8;
+  background-color: #A09998 
 }
 
 .space {
   width: 100%;
-  background-color: #edf2f8;
+  background-color: #bc9845 ;
 }
 .contact {
   width: 50%;
   margin: auto;
   height: auto;
+  background-color: #bc9845 ;
 
-  background-color: #EDF2F8;
   margin-bottom: 10px;
 }
 #connect {
   text-align: center;
   margin-top: 10px;
   color: #00758f;
-  font-family: "Rubik Distressed";
+  font-family: 'Courier New', Courier, monospace;
+
 }
 .contact-form {
   width: 90%;

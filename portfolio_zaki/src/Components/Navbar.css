@@ -35,7 +35,8 @@ margin-top: 2px;
   z-index: 1;
   transition: 0.3s ease-in;
   overflow: hidden;
-  background-color:#0E0C18
+    /* background-color:#9f5557;   */
+  background-color: #1c3334;  
 }
 
 .header .navbar {

@@ -38,7 +38,7 @@ export default function Connect() {
 
   return (
 
-<div id="contact">
+<div id="contact" style={{backgroundColor:"#A09998"}}>
 
 
 
@@ -47,7 +47,7 @@ export default function Connect() {
       align={"center"}
       justify={"center"}
       bg={useColorModeValue("gray.50", "gray.800")}
-   
+   bgColor={"#A09998"}
     >
        
       <Stack
@@ -60,7 +60,7 @@ export default function Connect() {
         p={6}
         my={12}
       >
-         <h2 style={{textAlign:"center",fontFamily:"Rubik Distressed",color:"#00758f"}}>Connect Me</h2>
+         <h2 style={{textAlign:"center", color: "#965679"}}>Connect Me</h2>
         <Heading lineHeight={1.1} fontSize={{ base: "2xl", md: "3xl" }}>
           Enter Details
         </Heading>
