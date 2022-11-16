@@ -60,9 +60,10 @@
     text-align: center;
     height: auto;
     margin: auto;
-    font-family: "Rubik Distressed";
-    color: brown;
-    background-color: #edf2f8;
+ 
+    color: #965679;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #A09998 ;
     font-size: smaller;
   }
 
@@ -94,9 +95,9 @@
     text-align: center;
     height: auto;
     margin: auto;
-    font-family: "Rubik Distressed";
-    color: brown;
-    background-color: #edf2f8;
+    color: #965679;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #A09998 ;
     font-size: smaller;
   }
 

@@ -132,8 +132,8 @@ padding: 10px;
   #hello span {
     margin-left: 18px;
     font-size: 30px;
-    font-family: "DynaPuff";
-    color: red;
+    font-family: 'Courier New', Courier, monospace;
+    color: #965679;
   }
 }
 @media screen and (max-width: 300px) {

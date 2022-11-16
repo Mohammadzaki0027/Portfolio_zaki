@@ -13,8 +13,83 @@ const Project = () => {
         {/* FIRST PROJECT START FROM HERE  */}
         <div className="indivi">
           <div className="imagediv">
+            <img src="carpage.PNG" alt="" />
+          </div>
+          <h1 className="titleofproject">Clone of WaytoGlobe.com</h1>
+          <div className="descriptiondiv">
+            <h1 className="descriptionh1">Description</h1>
+            <div className="uldiv_style">
+              <h5 className="unorderlist">
+                This Is E-Booking Website
+              </h5>
+
+              <h5>
+                I Work on a Car Page,Payment page and also Work in Backend Parts.I
+                used Mongodb atlas to  Store data.I have done the filter sorting functionatily 
+              </h5>
+            </div>
+          </div>
+          <div>
+            <h1 className="descriptionh1">Tech Used</h1>
+            <div className="techul">
+            <h3>React</h3>
+              <h3>||</h3>
+              <h3>Mongoose</h3>
+              <h3>||</h3>
+              <h3>Express</h3>
+            </div>
+          </div>
+          <div className="symbol">
+            <div className="hover">
+            <Tippy  className="hello_world"   content={<span style={{   
+  fontfamily: "Rubik Distressed"}}>Git Hub Code</span>}>
+              <a
+                href="https://github.com/Mohammadzaki0027/hurried-hospital-4011"
+                target="blank"
+              >
+                <AiFillGithub className="symbolgit" />
+              </a>
+              </Tippy>
+            </div>
+            <div className="hover">
+            <Tippy  className="hello_world"   content={<span style={{   
+  fontfamily: "Rubik Distressed"}}>Live Link</span>}>
+              <a
+                href="https://waytoglobe.vercel.app"
+                target="_blank"
+              >
+                <GoGlobe className="symbolgit" />
+              </a>
+              </Tippy>
+            </div>
+          </div>
+        </div>
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <div className="indivi">
+          <div className="imagediv">
             <img src="Planpagenetdairy.PNG" alt="" />
           </div>
+          <h1 className="titleofproject">Clone of Mynetdairy.com</h1>
           <div className="descriptiondiv">
             <h1 className="descriptionh1">Description</h1>
             <div className="uldiv_style">
@@ -67,6 +142,7 @@ const Project = () => {
           <div className="imagediv">
             <img src="timecamp.png" alt="" />
           </div>
+          <h1 className="titleofproject">Clone of TimeCamp.com</h1>
           <div className="descriptiondiv">
             <h1 className="descriptionh1">Description</h1>
             <div className="uldiv_style">
@@ -117,6 +193,7 @@ const Project = () => {
           <div className="imagediv">
             <img src="cricket.PNG" alt="" />
           </div>
+          <h1 className="titleofproject">Clone of Cricket.com</h1>
           <div className="descriptiondiv">
             <h1 className="descriptionh1">Description</h1>
             <div className="uldiv_style">
@@ -126,7 +203,7 @@ const Project = () => {
               </h5>
               <h5>
                 My Responsibility is to create a Whole Website.I made
-                Homepage,Schedule page and News Page.
+                Homepage,Schedule page and News Page.I use Api for getting data.I I Sort and Filter data by using Api.
               </h5>
             </div>
           </div>
@@ -171,6 +248,7 @@ const Project = () => {
           <div className="imagediv">
             <img src="productpageitem.PNG" alt="" />
           </div>
+          <h1 className="titleofproject">Clone of Nykaa.com</h1>
           <div className="descriptiondiv">
             <h1 className="descriptionh1">Description</h1>
             <div className="uldiv_style">
@@ -225,6 +303,7 @@ const Project = () => {
           <div className="imagediv">
             <img src="unsplash.PNG" alt="" />
           </div>
+          <h1 className="titleofproject">Clone of UnSplash.com</h1>
           <div className="descriptiondiv">
             <h1 className="descriptionh1">Description</h1>
             <div className="uldiv_style">
@@ -276,49 +355,7 @@ const Project = () => {
 
         {/* project second start from here  */}
 
-        <div className="indivi">
-          <div className="imagediv">
-            <img src="filter.PNG" alt="" />
-          </div>
-          <div className="descriptiondiv">
-            <h1 className="descriptionh1">Description</h1>
-            <div className="uldiv_style">
-              <h5 className="unorderlist">
-                This Is Mini Project on Redux Store
-              </h5>
-
-              <h5>
-                My Responsibility is to create a Whole Mini Project. In this I
-                used Redux Store for State Management In this I write logic to Edit 
-                data i json server And Fiter the data and Sort it by  using axios Module.
-              </h5>
-            </div>
-          </div>
-          <div>
-            <h1 className="descriptionh1">Tech Used</h1>
-            <div className="techul">
-            <h3>React</h3>
-              <h3>||</h3>
-              <h3>Redux</h3>
-              <h3>||</h3>
-              <h3>JavaScript</h3>
-            </div>
-          </div>
-          <div className="symbol">
-            <div className="hover">
-            <Tippy  className="hello_world"   content={<span style={{   
-  fontfamily: "Rubik Distressed"}}>Git Hub Code</span>}>
-              <a
-                href="https://github.com/Mohammadzaki0027/react_redux_assignment/tree/main/Redux/musicapp"
-                target="blank"
-              >
-                <AiFillGithub className="symbolgit" />
-              </a>
-              </Tippy>
-            </div>
-          </div>
-        </div>
-      </div>
+       </div>
     </div>
   );
 };
