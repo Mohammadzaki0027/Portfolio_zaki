@@ -9,14 +9,16 @@
 Images of Portfolio
 
 
-![portfolio_homepage](https://user-images.githubusercontent.com/101575981/192561947-7edf4c29-8e39-4caa-8283-56e8764f2eff.PNG)
+![homepageportfolio](https://user-images.githubusercontent.com/101575981/202365021-d655952d-6c59-4b89-b1c6-e9dc02b99641.PNG)
+
 
 
 
 
 Projects Image 
 
-![portproject](https://user-images.githubusercontent.com/101575981/192564885-5c9b06a4-a1b4-4ec4-a253-4507fe2fa3e0.PNG)
+
+![projectpage](https://user-images.githubusercontent.com/101575981/202365061-5336b2d6-0631-4566-af4e-6bee1e82ac11.PNG)
 
 
 
